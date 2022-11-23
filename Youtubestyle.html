@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title><center>My YouTube Webpage</center>center></title>
+        <style>
+body{
+background:#660033;
+}
+input[type=text] {
+width: 70%;
+border-sizing:border-box;
+border:2px solid #ccc;
+border-radius: 4px;
+font-size: 20px;
+background:white;
+background-image: url('search-icon.png');
+background-position: 5px 5px;
+background-repeat: no-repeat;
+padding:12px 20px 12px 40px;
+margin-top:20px;
+}
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &::before {
+
+        content: '';
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-image: url('http://placekitten.com');
+        background-size: cover;
+        background-position: top center;
+        opacity: 0.25;
+    }
+}
+h1 {
+    position: relative;
+    font-size: 8rem; 
+    text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <div class="youtube">
+         <span class="arrow"></span>   
+        </div>
+        <img src="youtube-logo-collection-with-flat-design_23-2147837759.webp" width="100">
+        <form>
+        <input type="text" name ="search"placeholder="search...">
+         </form>
+         <div class="hero">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BEACHES</a></li>
+                    <li><a href="#"></a>POPULAR PLACES</li>
+                    <li><a href="#"></a>CONTACT US</li>
+
+                </ul>
+            </nav>
+         </div>
+       </body>
+</html>
